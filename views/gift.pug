@@ -1,0 +1,64 @@
+extends layout
+
+block layout-content
+    div.View
+        // Wrapper
+        div(id="wrapper")
+
+            // Header
+            header(class="top-header")
+                nav(class="navbar header-nav navbar-expand-lg")
+                    div(class="container")
+                        a(class="navbar-brand" href="/")
+                            img(src="images/logo.png" alt="image")
+                
+            // End of Header
+
+            // Deals
+            br
+            br
+            div(id="b-deals" class="services-box main-timeline-box")
+                div(class="container")
+                    div(class="row")
+                        div(class="col-lg-12")
+                            div(class="title-box")
+                                h2 Christmas Gift
+
+                    
+                    div(class="row")
+                        div(class="col-lg-12 col-sm-12")
+                            figure(onClick="openModal()" class="effect-service")
+                                img(src="images/d1.png" alt="")
+                                figcaption
+                                    h2(style="font-size: 2rem") 6 Month of Fortnite Crew
+                        
+            
+            // The Modal
+            div(id="myModal" class="modal")
+
+                // The Modal Content
+                div(class="modal-content")
+                    div(class="about-a1")
+                        div(class="container")
+                            div(class="row")
+                                    div(class="col-lg-12")
+                                        div(class="title-box")
+                                            h2 Here's Your Gift!
+                            div(class="row")
+                                div(class="col-lg-12 col-md-12 col-sm-12")
+                                    div(class="row align-items-center about-main-info")
+                                        br
+                                        div(class="col-lg-6 col-md-6 col-sm-12")
+                                            h2 Congrats!
+                                            p Congrats Gamer! You just got 6 months of Fortnite Crew! To complete the process, just ask your brother to complete the purchase for your 6 months of Fortnite Crew! 
+                                            p Merry Christmas and Happy Holidays! Enjoy your Skins and Game on!
+                                            a(onClick="closeModal()" class="hvr-radial-out button-theme" style="color:white") Close
+                                            br
+                                            br
+                                            small This Offer is only valid until the end of Jan, and is only valid for Fortnite Crew until June 2021. This means you will get Fortnite Crew on Jan - Jun 2021. 
+                                        
+                                        div(class="col-lg-6 col-md-6 col-sm-12 text_align_center")
+                                            div(class="full")
+                                                img(class="img-responsive" src="images/w1.png" alt="#")
+
+

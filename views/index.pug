@@ -1,0 +1,61 @@
+extends layout
+
+block layout-content
+    div.View
+        // Wrapper
+        div(id="wrapper")
+
+            // Header
+            header(class="top-header")
+                nav(class="navbar header-nav navbar-expand-lg")
+                    div(class="container")
+                        a(class="navbar-brand" href="/")
+                            img(src="images/logo.png" alt="image")
+                        //- button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation")
+                        //-     span
+                        //-     span
+                        //-     span
+                        //- div(class="collapse navbar-collapse justify-content-end" id="navbar-wd")
+                        //-     ul(class="navbar-nav")
+                        //-         li
+                        //-             a(class="nav-link active" href="#home") Home
+                        //-             a(class="nav-link" href="#wish") Wish
+                        //-             a(class="nav-link" href="#b-deals") Best Deals
+                        //-             a(class="nav-link" href="#donate") Donate
+                        //-             a(class="nav-link" href="#testi") Testimonial
+                        //-             a(class="nav-link" href="#contact") Contact
+            // End of Header
+
+
+            // Banner
+            div(class="ulockd-home-slider")
+                div(class="container-fluid")
+                    div(class="row")
+                        div(class="pogoSlider" id="js-main-slider")
+                            div(class="pogoSlider-slide" style="background-image:url(images/slider-00.jpg);")
+                            div(class="pogoSlider-slide" style="background-image:url(images/slider-01.jpg);")
+            // End of Banner
+
+            
+            // Wish
+            div(id="wish" class="about-box" style="padding-bottom: 0;")       
+                div(class="about-a1" style="background:#f7f7f7;padding-top: 75px;padding-bottom: 50px;")
+                    div(class="container")
+                        div(class="row")
+                                div(class="col-lg-12")
+                                    div(class="title-box")
+                                        h2 Best Wishes
+                        div(class="row")
+                            div(class="col-lg-12 col-md-12 col-sm-12")
+                                div(class="row align-items-center about-main-info")
+                                    div(class="col-lg-6 col-md-6 col-sm-12")
+                                        h2 <img style="width: 60px;" src="images/head_s.png" alt="#" /> To My ßro
+                                        p Merry Christmas Riccardo! I hope you had an amazing year and an even better Christmas! You're the best little brother I could ask for, and I'm so proud of you! 
+                                        p I know it's not a physical gift but I think you deserve a bit of an unboxing experience, so here's a digital one! I hope you enjoy your gift! 
+                                        p You mean the world to me! I love you and I can't wait to spend many more gaming moments with you! Merry Christmas!! :D
+                                        a(href="/gift" class="hvr-radial-out button-theme") Reedem Gift
+                                    
+                                    div(class="col-lg-6 col-md-6 col-sm-12 text_align_center")
+                                        div(class="full")
+                                            img(class="img-responsive" src="images/w2.png" alt="#")
+            // End of Wishes Us

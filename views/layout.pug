@@ -1,0 +1,81 @@
+block variables
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="theme-color", content="#000000")
+
+
+        // Mobile Metas
+        meta(name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1, shrink-to-fit=no")
+
+        // Site Metas
+        title #{title} | Christmas
+        meta(name="keywords" content="")
+        meta(name="description" content="")
+        meta(name="author" content="")
+
+        // Site Icons
+        link(rel="shortcut icon" href="/favicon.ico" type="image/x-icon")
+        link(rel="apple-touch-icon" href="#")
+
+        // Bootstrap CSS
+        link(rel="stylesheet" href="/css/fontawesome-all.min.css")
+        link(rel="stylesheet" href="/css/bootstrap.min.css")
+        link(rel="stylesheet" href="/css/pogo-slider.min.css")
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="stylesheet" href="/css/responsive.css")
+        link(rel="stylesheet" href="/css/custom.css")
+        script(src="https://kit.fontawesome.com/9459603363.js" crossorigin="anonymous")
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+       
+    body(class="is-preload" id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98")
+        div#root
+            block layout-content
+            
+    footer
+        // JS Files
+       
+        script
+            include ../assets/js/source/breakpoints.min.js
+        script
+            include ../assets/js/source/browser.min.js
+        script
+            include ../assets/js/source/jquery.min.js
+        script
+            include ../assets/js/source/main.js
+        script
+            include ../assets/js/source/util.js
+        script
+            include ../assets/js/jquery.min.js
+        script
+            include ../assets/js/popper.min.js
+        script
+            include ../assets/js/bootstrap.min.js
+        script
+            include ../assets/js/modal_gift.js
+        
+        // Plugins
+        
+        script
+            include ../assets/js/jquery.magnific-popup.min.js
+        script
+            include ../assets/js/jquery.pogo-slider.min.js
+        script
+            include ../assets/js/slider-index.js
+        script
+            include ../assets/js/smoothscroll.js
+        script
+            include ../assets/js/form-validator.min.js
+        script
+            include ../assets/js/contact-form-script.js
+        script
+            include ../assets/js/isotope.min.js
+        script
+            include ../assets/js/images-loded.min.js
+        script
+            include ../assets/js/custom.js
